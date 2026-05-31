@@ -16,4 +16,7 @@ export default defineConfig({
       },
     },
   },
+  define: {
+    __GITHUB_PAGES__: JSON.stringify(isGitHubPages),
+  },
 });
